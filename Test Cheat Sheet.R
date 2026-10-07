@@ -164,3 +164,108 @@ SST = 342
 SSR = 164
 SSE = SST - SSR
 SSE
+
+### Question 1
+Prompt:
+The closing price of one company's stock, recorded every trading day from 2015 to 2024, is an example of:
+Answer Choices:
+- [Correct Answer] time-series data
+- a population
+- cross-sectional data
+- panel data
+### Question 2
+Prompt:
+Across U.S. cities, the number of police officers is positively correlated with the number of crimes. Which statement is best?
+Answer Choices:
+- Hiring police causes crime.
+- [Correct Answer] The correlation alone cannot tell us that police cause crime. For example, larger cities have more of both.
+- The correlation must be close to 1.
+- Because the correlation is positive, adding police to a city would increase its crime, holding all else equal.
+### Question 3
+Prompt:
+The unemployment rate falls from 5% to 4%. Select all statements that are correct.
+Answer Choices:
+- [Correct Answer] It fell by 1 percentage point.
+- [Correct Answer] It fell by 20%.
+- It fell by 1%.
+- It fell by 20 percentage points.
+- It fell by 25%.
+### Question 4
+Prompt:
+Match each part of the simple linear regression model Y = β0 + β1*X + U to its name. (One name is not used.)
+Matches:
+- Y: dependent variable
+- X: independent variable
+- U: error term
+- β1 (beta 1): slope parameter
+- β0 (beta 0): intercept parameter
+### Question 5
+Prompt:
+In yield = β0 + β1*fertilizer + U, land quality is part of U. Suppose farmers put more fertilizer on better-quality land. Then:
+Answer Choices:
+- β1 must equal zero
+- the zero conditional mean assumption E[U | fertilizer] = 0 still holds
+- [Correct Answer] the zero conditional mean assumption fails, because the average of U changes with fertilizer
+- U is always equal to zero
+### Question 6
+Prompt:
+In an OLS regression, observation i has fitted value Y_hat_i = 12 and residual U_hat_i = -3. Which statement is correct?
+Answer Choices:
+- Y_i = 15, and OLS over-predicted it
+- Y_i = 15, and OLS under-predicted it
+- Y_i = 9, and OLS under-predicted it
+- [Correct Answer] Y_i = 9, and OLS over-predicted it
+### Question 7
+Prompt:
+Consider the population of new cars sold in the U.S. Which is larger: E[price | make = Toyota] or E[price | make = Rolls-Royce]?
+Answer Choices:
+- Neither: they must be equal, because both are cars.
+- Neither: a conditional expectation does not depend on the group.
+- E[price | make = Toyota]
+- [Correct Answer] E[price | make = Rolls-Royce]
+### Question 8
+Prompt:
+Consider the population of U.S. residents. Which is larger: Var(annual income | age = 10) or Var(annual income | age = 40)?
+Answer Choices:
+- [Correct Answer] Var(annual income | age = 40)
+- Neither: both equal the overall variance of annual income.
+- Neither: a conditional variance does not depend on the group.
+- Var(annual income | age = 10)
+### Question 9
+Prompt:
+In a sample where the y values are not all equal, every observation lies exactly on the OLS line. Then:
+Answer Choices:
+- SST = 0
+- R^2 = 0
+- SST = SSR
+- [Correct Answer] SSR = 0 and R^2 = 1
+### Question 10
+Prompt:
+A regression of house price on square footage has R^2 = 0.62. Which statement is correct?
+Answer Choices:
+- One more square foot raises the predicted price by 0.62.
+- Square footage causes 62% of a house's price.
+- [Correct Answer] 62% of the sample variation in house price is explained by square footage.
+- 62% of the houses lie exactly on the regression line.
+### Question 11
+Prompt:
+A researcher fits four candidate lines to the same sample. For each line she records the sum of the residuals, the sum of their absolute values, and the sum of squared residuals. Exactly one of the four lines is the ordinary least squares (OLS) regression line, the line that gives \hat{\beta}_0 and \hat{\beta}_1. Which one?
+
+Table Data:
+Line | \sum_i \hat{u}_i | \sum_i |\hat{u}_i| | \sum_i \hat{u}_i^2
+
+A    | 0.00             | 3.80              | 3.30
+
+B    | 0.00             | 3.20              | 2.40
+
+C    | -0.50            | 3.30              | 2.55
+
+D    | 1.00             | 3.00              | 3.00
+Answer Choices:
+- Line A
+- Line C
+- [Correct Answer] Line B
+- Line D
+
+
+
