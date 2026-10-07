@@ -267,5 +267,503 @@ Answer Choices:
 - [Correct Answer] Line B
 - Line D
 
+Questions 12-38 probably all random but could help 
+### Question 12
+
+Prompt:
+
+The sample covariance between annual income (in dollars) and years of education is 7,800, and their sample correlation is 0.24. If income is measured in thousands of dollars instead, what is the sample correlation between income and education? (round to the hundredths)
+
+
+
+Answer:
+
+0.24
+
+
+
+---
+
+
+
+### Question 13
+
+Prompt:
+
+A vector of 16 numbers has first element 25, and each of the remaining elements equals 9. Find the sample mean. (round to the hundredths)
+
+
+
+Answer:
+
+10
+
+
+
+---
+
+
+
+### Question 14
+
+Prompt:
+
+Suppose $y = 8 + 1.2 X_1 - 0.5 X_2$. If $X_1$ rises by 2 and $X_2$ falls by 2, by how much does $y$ change? (round to the hundredths)
+
+
+
+Answer:
+
+3.4
+
+
+
+---
+
+
+
+### Question 15
+
+Prompt:
+
+The unemployment rate rises from 6% to 7.2%. By what percent does the unemployment rate change? Give a percent rounded to the hundredths, e.g. 12.34 for 12.34%.
+
+
+
+Answer:
+
+20
+
+
+
+---
+
+
+
+### Question 16
+
+Prompt:
+
+Find the sample standard deviation of $x = (3, 7, 7, 11)$. (round to the hundredths)
+
+
+
+Answer:
+
+3.27
+
+
+
+---
+
+
+
+### Question 17
+
+Prompt:
+
+A sample has sample covariance $S_{xz} = -14$, sample standard deviation $S_x = 5$, and sample variance $S_z^2 = 49$. Find the sample correlation between $x$ and $z$. (round to the hundredths)
+
+
+
+Answer:
+
+-0.4
+
+
+
+---
+
+
+
+### Question 18
+
+Prompt:
+
+$E[X] = 4$ and $E[X^2] = 32$. Find the standard deviation of $2X - 5$. (round to the hundredths)
+
+
+
+Answer:
+
+8
+
+
+
+---
+
+
+
+### Question 19
+
+Prompt:
+
+Given $X = x$, $Y$ takes the values 11, 22, and 41 with probabilities 0.5, 0.3, and 0.2. Find $E[4Y + 9 \mid X = x]$. (round to the hundredths)
+
+
+
+Answer:
+
+90.2
+
+
+
+---
+
+
+
+### Question 20
+
+Prompt:
+
+$Var(X) = 6$, $Var(Y) = 11$, and $Cov(X, Y) = -3.1$. Find $Var(2X - 3Y)$. (round to the hundredths)
+
+
+
+Answer:
+
+92.8
+
+
+
+---
+
+
+
+### Question 21
+
+Prompt:
+
+$X$ and $Y$ have the joint distribution below. Find $Cor(X, Y)$. (round to the hundredths)
+
+
+
+Joint Distribution Table:
+
+| $x$ | $y$ | $P(X = x, Y = y)$ |
+
+| :--- | :--- | :--- |
+
+| 1 | 10 | 0.1 |
+
+| 4 | 2 | 0.4 |
+
+| 5 | 6 | 0.3 |
+
+| 8 | 3 | 0.2 |
+
+
+
+Answer:
+
+-0.43
+
+
+
+---
+
+
+
+### Question 22
+
+Prompt:
+
+For the sample $x = (1, 4, 6, 8, 9)$, $y = (4, 11, 2, 7, 12)$, find the OLS slope $\hat{\beta}_1$ from regressing $y$ on $x$. (round to the hundredths)
+
+
+
+Answer:
+
+0.54
+
+
+
+---
+
+
+
+### Question 23
+
+Prompt:
+
+For the sample $x = (1, 2, 7, 8, 9)$, $y = (5, 9, 11, 5, 10)$, regress $y$ on $x$ by OLS. Find the OLS residual of the third observation, $(x_3, y_3) = (7, 11)$. (round to the hundredths)
+
+
+
+Answer:
+
+2.58
+
+
+
+---
+
+
+
+### Question 24
+
+Prompt:
+
+A sample of $n = 51$ observations has sample variance $S_y^2 = 28$. Find the total sum of squares, SST. (round to the hundredths)
+
+
+
+Answer:
+
+1400
+
+
+
+---
+
+
+
+### Question 25
+
+Prompt:
+
+A regression has explained sum of squares SSE = 112 and $R^2 = 0.88$. Find the sum of squared residuals, SSR. (round to the hundredths)
+
+
+
+Answer:
+
+15.27
+
+
+
+---
+
+
+
+### Question 26
+
+Prompt:
+
+An OLS regression line has intercept $\hat{\beta}_0 = 2$ and slope $\hat{\beta}_1 = 3.4$. The sample mean of $x$ is 7. What is the sample mean of $y$? (round to the hundredths)
+
+
+
+Answer:
+
+25.8
+
+
+
+---
+
+
+
+### Question 27
+
+Prompt:
+
+An OLS regression on five observations has residuals -1.8, 1.1, 2.2, -1.4, and one more. What is the fifth residual? (round to the hundredths)
+
+
+
+Answer:
+
+-0.1
+
+
+
+---
+
+
+
+### Question 28
+
+Prompt:
+
+For the sample $x = (1, 4, 9, 10, 12, 14)$, $y = (15, 14, 7, 7, 13, 13)$, regress $y$ on $x$ by OLS. Compute $\sum_{i=1}^6 x_i \hat{u}_i$, where $\hat{u}_i$ are the OLS residuals. (round to the hundredths)
+
+
+
+Answer:
+
+0
+
+
+
+---
+
+
+
+### Question 29
+
+Prompt:
+
+Data: ceosal1 (salary = CEO's 1990 salary in thousands of dollars; roe = the firm's return on equity, in percent). How many CEOs are in the sample?
+
+
+
+Answer:
+
+209
+
+
+
+---
+
+
+
+### Question 30
+
+Prompt:
+
+Data: ceosal1 (salary = CEO's 1990 salary in thousands of dollars; roe = the firm's return on equity, in percent). What is the sample mean of return on equity? (round to the hundredths)
+
+
+
+Answer:
+
+17.18
+
+
+
+---
+
+
+
+### Question 31
+
+Prompt:
+
+Data: ceosal1 (salary = CEO's 1990 salary in thousands of dollars; roe = the firm's return on equity, in percent). What is the sample correlation between salary and return on equity? (round to the hundredths)
+
+
+
+Answer:
+
+0.11
+
+
+
+---
+
+
+
+### Question 32
+
+Prompt:
+
+Data: wage1 (wage = average hourly earnings in dollars; tenure = years with the current employer). Run the OLS regression of wage on tenure. What is the OLS slope? (round to the hundredths)
+
+
+
+Answer:
+
+0.18
+
+
+
+---
+
+
+
+### Question 33
+
+Prompt:
+
+Data: wage1 (wage = average hourly earnings in dollars; tenure = years with the current employer). Using the OLS regression of wage on tenure, what is the predicted hourly wage of a worker with 2 years of tenure? (round to the hundredths)
+
+
+
+Answer:
+
+5.35
+
+
+
+---
+
+
+
+### Question 34
+
+Prompt:
+
+Data: wage1 (wage = average hourly earnings in dollars; tenure = years with the current employer). Using the OLS regression of wage on tenure, by how much does the predicted hourly wage change when tenure rises from 0 to 9 years? (round to the hundredths)
+
+
+
+Answer:
+
+1.6
+
+
+
+---
+
+
+
+### Question 35
+
+Prompt:
+
+Data: wage1 (wage = average hourly earnings in dollars; tenure = years with the current employer). What percentage of the sample variation in wage is explained by tenure? Give a percent rounded to the hundredths, e.g. 12.34 for 12.34%.
+
+
+
+Answer:
+
+12.03
+
+
+
+---
+
+
+
+### Question 36
+
+Prompt:
+
+Data: wage1 (wage = average hourly earnings in dollars; tenure = years with the current employer). Using the OLS regression of wage on tenure, what is the OLS residual of the worker in the second row of wage1? (round to the hundredths)
+
+
+
+Answer:
+
+-2.11
+
+
+
+---
+
+
+
+### Question 37
+
+Prompt:
+
+Data: bwght (bwght = a baby's birth weight in ounces; faminc = the family's income in thousands of dollars). Run the OLS regression of birth weight on family income. What is the explained sum of squares, SSE? (round to the hundredths)
+
+
+
+Answer:
+
+6819.05
+
+
+
+---
+
+
+
+### Question 38
+
+Prompt:
+
+Data: bwght (bwght = a baby's birth weight in ounces; faminc = the family's income in thousands of dollars). Using the OLS regression of birth weight on family income, by how many ounces does predicted birth weight change when family income rises by 6, that is, by $6,000? (round to the hundredths)
+
+
+
+Answer:
+
+0.71
+
+
 
 
